@@ -4,9 +4,9 @@
   @extend .font-heavy;
   font-size: 9pt;
   &-sm {
-     @extend .typography-running-head;
-     font-size: 9pt;
-   }
+    @extend .typography-running-head;
+    font-size: 9pt;
+  }
   &-lg {
     @extend .typography-running-head;
     font-size: 11pt;
@@ -75,7 +75,6 @@
   &-lg {
     @extend .typography-large-type;
     font-size: 47pt;
-
   }
 }
 
@@ -89,7 +88,6 @@
   &-lg {
     @extend .typography-quote;
     font-size: 30pt;
-
   }
 }
 
@@ -103,6 +101,5 @@
   &-lg {
     @extend .typography-quote-attribution;
     font-size: 14pt;
-
   }
 }

@@ -5,7 +5,7 @@ import HamburgerMenu from "./components/HamburgerMenu.vue";
 
 const Components = {
   HelloWorld,
-  HamburgerMenu
+  HamburgerMenu,
 };
 
 Vue.component("HelloWorld", HelloWorld);

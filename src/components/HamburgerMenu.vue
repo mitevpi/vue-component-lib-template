@@ -1,8 +1,8 @@
 <template>
   <div id="burger" :class="{ active: isBurgerActive }" @click.prevent="toggle">
-<!--    <transition name="fade">-->
-<!--      <router-link v-show="isBurgerActive" to="/">Home</router-link>-->
-<!--    </transition>-->
+    <!--    <transition name="fade">-->
+    <!--      <router-link v-show="isBurgerActive" to="/">Home</router-link>-->
+    <!--    </transition>-->
     <slot>
       <button type="button" class="burger-button" title="Menu">
         <span class="burger-bar burger-bar--1" />
@@ -10,22 +10,22 @@
         <span class="burger-bar burger-bar--3" />
       </button>
     </slot>
-<!--    <transition name="fade">-->
-<!--      <router-link v-show="isBurgerActive" to="/about">About</router-link>-->
-<!--    </transition>-->
+    <!--    <transition name="fade">-->
+    <!--      <router-link v-show="isBurgerActive" to="/about">About</router-link>-->
+    <!--    </transition>-->
   </div>
 </template>
 <script>
 export default {
   name: "HamburgerMenu",
   data: () => ({
-    isBurgerActive: false
+    isBurgerActive: false,
   }),
   methods: {
     toggle() {
       this.isBurgerActive = !this.isBurgerActive;
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>
@@ -63,8 +63,8 @@ button:focus {
   width: auto;
   margin-top: -1px;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
-  opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
-  background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .burger-bar--1 {
   -webkit-transform: translateY(-6px);

@@ -9,7 +9,7 @@ module.exports = {
     "plugin:vue/recommended",
     "airbnb-base",
     "plugin:prettier/recommended",
-    "eslint:recommended"
+    "eslint:recommended",
   ],
   rules: {
     "import/no-extraneous-dependencies": "off",
@@ -28,13 +28,13 @@ module.exports = {
         singleline: 5,
         multiline: {
           max: 5,
-          allowFirstLine: true
-        }
-      }
-    ]
+          allowFirstLine: true,
+        },
+      },
+    ],
   },
   parserOptions: {
     parser: "babel-eslint",
-    sourceType: "module"
-  }
+    sourceType: "module",
+  },
 };

@@ -10,11 +10,11 @@ export default {
   name: "App",
   components: {
     HamburgerMenu: () => import("./components/HamburgerMenu.vue"),
-    HelloWorld: () => import("./components/HelloWorld.vue")
+    HelloWorld: () => import("./components/HelloWorld.vue"),
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 

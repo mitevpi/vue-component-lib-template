@@ -108,11 +108,10 @@ export default {
 
 #### Loading Compiled CSS
 
-The styles are written in SCSS and can be compiled upon building this library. 
+The styles are written in SCSS and can be compiled upon building this library.
 They can be loaded into an application that doesn't have SCSS loading
 capability by referencing/importing the `component-library.css` file which is
-created in the `dist` folder of this repository when executing `npm run
-build`. 
+created in the `dist` folder of this repository when executing `npm run build`.
 
 In order to enable this functionality, an edit has to be made in
 [`vue.config.js`](vue.config.js). The line `extract: false` must be removed
@@ -182,8 +181,7 @@ Typography & Font classes can be found under the
 ### Building
 
 In order to contribute to this project, fork/clone this repository
-locally. After cloning is completed, install the dependencies using `npm
-i`.
+locally. After cloning is completed, install the dependencies using `npm i`.
 
 #### Preview
 

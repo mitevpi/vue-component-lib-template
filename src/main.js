@@ -5,5 +5,5 @@ Vue.config.productionTip = false;
 
 new Vue({
   components: { App },
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount("#app");
