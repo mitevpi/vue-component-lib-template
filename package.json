@@ -28,7 +28,7 @@
     "README.md"
   ],
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
